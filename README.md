@@ -1,7 +1,7 @@
 
 # ChStyling Web
 
-E-commers realizado en flutter para el estudio de  arquitectura ch.
+E-commers realizado con django para el estudio de arquitectura ch.
 
 
 ## Authors
