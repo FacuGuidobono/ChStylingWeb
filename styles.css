@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Montserrat";
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 1.5;
+    font-stretch: expanded;
+  }
+  
+  header {
+    background-color:#a49c85;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+ 
+
+  header h1 {
+    margin-top: 0;
+  }
+  
+  header form {
+    display: inline-block;
+  }
+  
+  header input {
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  header button {
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #a49c85;
+    border: 1px solid #ccc;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .categorias {
+    margin-bottom: 20px;
+  }
+  
+  .categorias h2 {
+    margin-bottom: 10px;
+  }
+  
+  .categorias ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .categorias li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .categorias a {
+    text-decoration: none;
+    color: #a49c85;
+  }
+  
+  .productos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .productos h2 {
+    margin-bottom: 10px;
+  }
+  
+  .productos ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .producto {
+    width: 25%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .producto img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .producto h3 {
+    margin-bottom: 5px;
+  }
+  
+  .producto p {
+    margin-bottom: 10px;
+  }
+  
+  
